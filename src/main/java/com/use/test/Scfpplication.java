@@ -14,5 +14,6 @@ public class Scfpplication {
                 new AnnotationConfigApplicationContext(ApplicationConfig.class);
         UseInterface useService = (UseInterface) context.getBean("useService");
         useService.doTest();
+
     }
 }
